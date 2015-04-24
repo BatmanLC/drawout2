@@ -29,22 +29,22 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="265">
-                    <field name="TEXT">hi</field>
+                    <field name="TEXT">like </field>
                     <next>
                       <block type="oled_setcursor" id="134" inline="true">
                         <value name="STARTX">
                           <block type="math_number" id="190">
-                            <field name="NUM">56</field>
+                            <field name="NUM">10</field>
                           </block>
                         </value>
                         <value name="STARTY">
-                          <block type="math_number" id="215">
-                            <field name="NUM">56</field>
+                          <block type="math_number" id="272">
+                            <field name="NUM">98</field>
                           </block>
                         </value>
                         <next>
                           <block type="oled_drawtext" id="143">
-                            <field name="TEXT">eat pie</field>
+                            <field name="TEXT">hello</field>
                           </block>
                         </next>
                       </block>
